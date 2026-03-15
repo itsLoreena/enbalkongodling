@@ -34,13 +34,6 @@ header {
   padding: 20px;
 }
 
-/* Add a card effect for articles */
-article {
-  background-color: white;
-  padding: 20px;
-  margin-top: 20px;
-}
-
 /* Add a card effect for containers */
 .card {
   background-color: white;
@@ -60,6 +53,18 @@ footer {
   text-align: center;
   background: #ddd;
   margin-top: 20px;
+}
+
+.social-icon 
+{
+  color:  #000;
+  transition: color 0.2s;
+  text-decoration: none;
+}
+
+.social-icon:hover
+{
+  color: #777;
 }
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
