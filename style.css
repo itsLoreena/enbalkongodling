@@ -27,6 +27,21 @@ header {
   padding-left: 20px;
 }
 
+.profile-image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-image-container img {
+  width: 80%;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+.about {
+  padding: 0.5em;
+}
+
 /* Fake image */
 .fakeimg {
   background-color: #aaa;
@@ -73,4 +88,22 @@ footer {
     width: 100%;
     padding: 0;
   }
+
+  .profile-image-container img {
+    width: 60%;
+  }
+
 }
+
+@media screen and (max-width: 576px) 
+{
+  .brand
+  {
+    font-size: 1em;
+  }
+
+  .profile-image-container img {
+    width: 70%;
+  }
+}
+
