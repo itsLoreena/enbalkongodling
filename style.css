@@ -42,6 +42,24 @@ header {
   padding: 0.5em;
 }
 
+.posts {
+  width: 100%;
+  padding: 20px;
+  padding: 0;
+}
+
+.posts a {
+  color:  #000;
+  transition: color 0.2s;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+.posts a:hover {
+  color: #777;
+}
+
 /* Fake image */
 .fakeimg {
   background-color: #aaa;
@@ -54,6 +72,15 @@ header {
   background-color: white;
   padding: 20px;
   margin-top: 20px;
+}
+
+.card h2 {
+  margin-bottom: 0;
+}
+
+.card h5 {
+  margin: 0 0 1em 0;
+  font-weight: normal;
 }
 
 /* Clear floats after the columns */
@@ -100,7 +127,6 @@ small {
   .profile-image-container img {
     width: 60%;
   }
-
 }
 
 @media screen and (max-width: 576px) 
