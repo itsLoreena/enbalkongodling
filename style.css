@@ -16,6 +16,10 @@ header {
   background: white;
 }
 
+.brand {
+  font-size: 1.7em;
+}
+
 /* Create two unequal columns that floats next to each other */
 .leftcolumn {
   float: left;
@@ -143,13 +147,17 @@ small {
   .profile-image-container img {
     width: 60%;
   }
+
+  .brand {
+    font-size: 1.3em;
+  }
 }
 
 @media screen and (max-width: 576px) 
 {
   .brand
   {
-    font-size: 1em;
+    font-size: 0.8em;
   }
 
   .profile-image-container img {
