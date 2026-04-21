@@ -69,8 +69,25 @@ header {
   color: #777;
 }
 
+article {
+  background-color: white;
+  padding: 20px 40px;
+  margin-top: 20px;
+}
+
+
 article p {
   line-height:1.5em;
+}
+
+.article-header {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.article-subheader {
+  margin: 0 0 1em 0;
+  font-weight: normal;
 }
 
 /* Fake image */
@@ -83,17 +100,17 @@ article p {
 /* Add a card effect for containers */
 .card {
   background-color: white;
-  padding: 20px;
+  padding: 20px 30px;
   margin-top: 20px;
 }
 
 .card h2 {
   margin-bottom: 0;
+  margin-top: 0;
 }
 
-.card h5 {
-  margin: 0 0 1em 0;
-  font-weight: normal;
+.card h3 {
+  margin-top: 0;
 }
 
 /* Clear floats after the columns */
