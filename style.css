@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: Arial;
+  font-family: Open Sans;
   padding: 20px;
   background: #f1f1f1;
   margin: 0;
@@ -43,6 +43,10 @@ header {
   padding: 0.5em;
 }
 
+.about p {
+  font-size: small;
+}
+
 .posts {
   width: 100%;
   padding: 20px;
@@ -59,6 +63,10 @@ header {
 
 .posts a:hover {
   color: #777;
+}
+
+article p {
+  line-height:1.5em;
 }
 
 /* Fake image */
