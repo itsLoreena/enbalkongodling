@@ -76,7 +76,7 @@ article {
 }
 
 article p {
-  line-height:1.5em;
+  line-height: 1.5em;
 }
 
 .article-header {
@@ -87,6 +87,24 @@ article p {
 .article-subheader {
   margin: 0 0 1em 0;
   font-weight: normal;
+}
+
+.article-img-container 
+{
+  height: 200px;
+  width: 100%;
+}
+
+.article-img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%; 
+}
+
+/* For setting individual object position depending on the img */
+#purpose-img 
+{
+  object-position: 80% 20%;
 }
 
 /* Fake image */
@@ -148,7 +166,7 @@ small {
 
 @media screen and (min-width: 1200px) { 
   body {
-    padding: 20px 125px;
+    padding: 20px 135px;
   }
  }
 
